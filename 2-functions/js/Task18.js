@@ -3,7 +3,7 @@ function theSearch(arr, elem){
     var hpos = Math.floor(arr.length/2);
     if (arr[hpos] === elem){
         return hpos;
-    }else if(arr.length == 1){
+    }else if(arr.length === 1){
         return null;
     }else if (arr[hpos] < elem){
         half = arr.slice(hpos + 1);

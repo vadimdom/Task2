@@ -5,17 +5,13 @@ function greatLow(arr){
     var len = arrSort.length;
     alert("Отсортированный массив: " + arrSort);
     for (var j =1; j<=len; j++){
-        if (arrSort[0] == arrSort[j]){
-            continue;
-        }else{
+        if (arrSort[0] !== arrSort[j]){
             var low = arrSort[j];
             break;
         }
     }    
     for (var j =len-2; j>=0; j--){
-        if (arrSort[len-1] == arrSort[j]){
-            continue;
-        }else{
+        if (arrSort[len-1] !== arrSort[j]){
             var great = arrSort[j];
             break;
         }

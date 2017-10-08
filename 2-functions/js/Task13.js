@@ -6,8 +6,6 @@ function toFactors(num1){
             if (num%i == 0){
                 arr[j]=i;
                 j++;
-            }else{
-                continue;
             }
     }
     alert(arr.join(", "));

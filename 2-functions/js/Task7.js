@@ -3,7 +3,7 @@ function findingVowels(str){
     var count = 0;
     for(var i = 0; i < str.length; i++){
         for (var j=0; j<=vowels.length; j++){
-            if (str[i].toLowerCase() == vowels[j]){
+            if (str[i].toLowerCase() === vowels[j]){
                 count++;
             }
         }

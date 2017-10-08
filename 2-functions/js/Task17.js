@@ -11,7 +11,7 @@ function theCount(str){
         var pos = 0;
         while (true) {
           var foundPos = str.indexOf(uni[i], pos);
-          if (foundPos == -1) break;
+          if (foundPos === -1) break;
           col++;
           pos = foundPos + 1; 
         }
