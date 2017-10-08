@@ -13,7 +13,7 @@ function getDaysInMonth(month, year){
     return days-1;
 }
 
-console.log(getDaysInMonth(1, 2012)); 
+console.log(getDaysInMonth(1, 2012));
 console.log(getDaysInMonth(2, 2012)); 
 console.log(getDaysInMonth(9, 2012)); 
 console.log(getDaysInMonth(12, 2012));
