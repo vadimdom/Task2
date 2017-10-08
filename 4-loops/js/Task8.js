@@ -3,7 +3,7 @@ function happyNum(num)
     var m, n ;
     var mas = [] ;
  
-    while(num != 1 && mas[num] !== true) 
+    while(num !== 1 && mas[num] !== true) 
     {
         mas[num] = true ;
         m = 0 ;
@@ -14,18 +14,18 @@ function happyNum(num)
         }
         num = m ;
     }
-    return (num == 1) ;
+    return (num === 1) ;
 }
 
 var number = 1;
-var kol = 0;
+var amount = 0;
 var fin = "";
-while (kol !== 5){
+while (amount !== 5){
      while (happyNum(number) !== true){
             number++;
      }
      fin = fin + number + ", ";
      number++;
-     kol++;
+     amount++;
 }
 alert(fin);
