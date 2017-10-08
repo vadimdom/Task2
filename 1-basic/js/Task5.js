@@ -1,4 +1,4 @@
-function perestanovka(){
+function toRotate(){
     setInterval(function()
     {
     var a=document.getElementById("string").innerHTML;

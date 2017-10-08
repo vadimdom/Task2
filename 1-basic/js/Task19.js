@@ -1,4 +1,4 @@
-var number = prompt("Введите число: ");
+var number = +(prompt("Введите число: "));
 if (Math.abs(100 - number) <=20 ){
     alert("Число около 100");
 }else if(Math.abs(400 - number) <=20){
