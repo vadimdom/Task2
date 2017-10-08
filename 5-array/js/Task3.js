@@ -1,5 +1,5 @@
 function first(arr, n){
-    if (arr[0] == undefined || n == undefined){
+    if (arr[0] === undefined || n === undefined){
         return arr;
     }else if (n >=1){
         return arr.slice(0, n);

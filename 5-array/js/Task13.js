@@ -5,7 +5,7 @@ function add(){
     var a = document.getElementById("input").value;
     arr.push(a);
     k++;
-    document.getElementById("result").innerHTML= "Элемент успешно добавлен";
+    alert("Элемент успешно добавлен");
 }
 
 function display(){
