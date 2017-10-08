@@ -1,4 +1,4 @@
-function delitel(a, b){
+function greatestCommonDivisor(a, b){
     if (a === b){
         return a;
     }
@@ -12,7 +12,7 @@ function delitel(a, b){
     if (big % low === 0){
         return low;
     }
-    return delitel(low, big % low);
+    return greatestCommonDivisor(low, big % low);
 }
 
-alert("Наибольший общий делитель: " + delitel(+(prompt("Введите первое число: ")), +(prompt("Введите второе число: "))));
+alert("Наибольший общий делитель: " + greatestCommonDivisor(+(prompt("Введите первое число: ")), +(prompt("Введите второе число: "))));
