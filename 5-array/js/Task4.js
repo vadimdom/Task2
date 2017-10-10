@@ -1,11 +1,11 @@
 function last(arr, n){
-    if (arr[0] === undefined ){
+    if (!arr[0]){
         return arr;
     }else if (n >= arr.length){
         return arr;
     }else if (n >=1){
         return arr.slice(arr.length-n);
-    }else if (n === undefined){
+    }else if (!n){
         return arr[arr.length-1];
     }else if (n < 0){
         var arr1 = [];
