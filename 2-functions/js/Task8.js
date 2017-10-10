@@ -1,5 +1,4 @@
-function isPrime(num1){
-    var num = num1;
+function isPrime(num){
     for(var i = 2; i <= Math.ceil(num/2); i++){
             if (num%i === 0){
                 alert("Это непростое число: " + num);
